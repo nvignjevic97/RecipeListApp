@@ -1,0 +1,10 @@
+<h1 mat-dialog-title>Recipe Name:  {{data.name}}</h1>
+<h1 mat-dialog-title>Recipe Source: {{data.source}}</h1>
+<h1 mat-dialog-title>Ingredients:  <p mat-dialog-content>{{data.ingredients}}</p> </h1>
+<h1 mat-dialog-title>Instruction: <p mat-dialog-content>{{data.preparationInstruction}}</p></h1>
+<h1 mat-dialog-title>Time: {{data.prepartionTime}}</h1>
+<h1>{{data.numberOfIngredients}}</h1>
+<div mat-dialog-actions>
+  <button mat-button (click)="onClick()">No Thanks</button>
+  
+</div>

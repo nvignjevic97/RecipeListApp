@@ -1,0 +1,31 @@
+
+input.ng-dirty.ng-valid {
+    border-color: green;
+}
+
+textarea.ng-dirty.ng-valid {
+    border-color: green;
+}
+
+input.ng-dirty.ng-invalid {
+    border-color: red;
+    border-style: double;
+}
+
+textarea.ng-dirty.ng-invalid {
+    border-color: red;
+    border-style: double;
+}
+
+.tHi:hover {
+    cursor: pointer;
+    background-color: rgb(255, 153, 153) !important;
+}
+
+thead{
+    color: rgba(3, 3, 46, 0.726);
+    
+}
+.dva{
+    background-color: red;
+}
