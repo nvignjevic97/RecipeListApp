@@ -6,21 +6,21 @@
                 <thead>
                     <tr>
                         <th>
-                         Vnesi ime na recepta
+                         Recipe name
                             <input  type= 'name' class="form-control" formControlName="name"  required minlength="4" appForbiddenName="bob"  />
                             
                         </th>
-                        <th> Vnesi RecipeSource
+                        <th> Enter Recipe Source
                             <input type='RecipeSource'class="form-control" formControlName="source" required minlength="3"/>
                         </th>
-                        <th> Vnesete sostojki
+                        <th> Enter Ingredients
                             <input type= 'Ingredients' class="form-control" formControlName="ingredients" required minlength="3"/>
                         </th>
-                        <th> Vnesete instrukcijaa
-                            <textarea type=  'PreparationInstruction' class="form-control" formControlName="instruction" required maxlength="30"> </textarea>
+                        <th> Enter Instruction
+                            <textarea type=  'PreparationInstruction' class="form-control" formControlName="instruction" required minlength="15"> </textarea>
                            
                         </th>
-                         <th> Vnesete potrebno vreme
+                         <th> Enter time
                             <input type=  'PreparationTime' class="form-control" formControlName="time" required minlength="4" required maxlength="4"/>
                         </th>
                         <th>
